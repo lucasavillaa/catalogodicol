@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+  <head>
+    <meta name="theme-color" content="#06215a" />
+    <title>Catálogo Fornecedores - Dicol</title>
+    <link rel="shortcut icon" type="image/png" href="./dicol.png" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abel&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Basic-icons.css" />
+    <style>
+      .ticker__element {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 50px;
+      }
+  
+      .ticker-wrapper {
+        display: inline-flex;
+        animation: tickerAnim 10s linear infinite;
+      }
+  
+      .item-ticker {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        font-size: 16px;
+        background-color: #101d8f;
+        color: #FFFFFF;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+  
+      @keyframes tickerAnim {
+        0% {
+          transform: translateX(100%);
+        }
+  
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    </style>
+    <style>
+      html, body {
+        height: 100%;
+      }
+    
+      .wrap {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .button {
+        min-width: 300px;
+        min-height: 60px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+        font-weight: 700;
+        color: #ffffff;
+        background: #2b0b9e;
+        background: linear-gradient(90deg, rgb(6, 12, 83) 0%, rgb(38, 0, 255) 100%);
+        border: none;
+        border-radius: 1000px;
+        box-shadow: 12px 12px 24px rgba(5, 7, 100, 0.64);
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        padding: 10px;
+      }
+    
+      .button::before {
+        content: '';
+        border-radius: 1000px;
+        min-width: calc(150px + 1px);
+        min-height: calc(35px + 1px);
+        border: 2px solid #ffffff;
+        box-shadow: 0 0 60px rgba(11, 1, 66, 0.64);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all .3s ease-in-out 0s;
+      }
+    
+      .button:hover, .button:focus {
+        color: #ffffff;
+        transform: translateY(-6px);
+      }
+    
+      .button:hover::before, .button:focus::before {
+        opacity: 1;
+      }
+    
+      .button::after {
+        content: '';
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        border: 6px solid #2e88ff;
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: ring 1.5s infinite;
+      }
+    
+      .button:hover::after, .button:focus::after {
+        animation: none;
+        display: none;
+      }
+    
+      @keyframes ring {
+        0% {
+          width: 1px;
+          height: 1px;
+          opacity: 1;
+        }
+        100% {
+          width: 100px;
+          height: 100px;
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body style="background: url('assets/img/background.webp'), rgb(56, 52, 94)">
+    <section class="py-5" style="padding-bottom: 2px">
+      <div class="container py-5" style="padding-top: 66px; margin-top: -76px; height: 1059px">
+        <div class="row mb-4 mb-lg-5">
+          <div class="col-md-9 col-lg-10 col-xl-6 text-center mx-auto">
+            <div class="col-md-12 col-lg-12 d-md-flex flex-row mx-auto mb-4">
+              <div class="text-center mx-auto">
+                <div class="ticker__element">
+                  <div class="ticker-wrapper">
+                    <div class="item-ticker"><span class="title-ticker">Catálogos - Nadir, Mardam e Hemmer Atualizado 10/04.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <div
+        class="container py-5"
+        style="padding-top: 66px; margin-top: -76px; height: 1059px"
+      >
+        <div class="row mb-4 mb-lg-5">
+          <div class="col-md-9 col-lg-10 col-xl-6 text-center mx-auto">
+            <h1
+              class="fw-bold text-center d-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-center"
+              style="font-size: 30.1px; font-family: Inter, sans-serif"
+            >
+              <img
+                class="d-flex flex-column justify-content-center align-items-center align-items-sm-center justify-content-md-center align-items-lg-center"
+                src="assets/img/Logo%20all%20Branco.png"
+                style="width: 179px; margin: 22px; height: 99px"
+                width="151"
+                height="84"
+              />CATÁLOGO FORNECEDORES 2024
+            </h1>
+          </div>
+        </div>
+        <div
+          class="row row-cols-2 row-cols-md-3 mx-auto bounce animated"
+          style="max-width: 700px"
+        >
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/1MY1kxQ62ZAzg8UgYeoXc_ZeXIFarj3go/view?usp=sharing" target="_blank">
+                <img
+                  class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                  data-bss-hover-animate="tada"
+                  width="100"
+                  height="99"
+                  style="
+                    border-width: 0px;
+                    border-radius: 0px;
+                    box-shadow: 0px 0px 20px 0px #ffffff80;
+                  "
+                  src="assets/img/docile-200x200.png"
+                />
+              </a> 
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/1NdrEm9bPCBitKVXvVXBZv7apPET1IxJV/view?usp=sharing" target="_blank">
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/bauducco-150x150.png"
+                style="
+                  border-width: 0px;
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
+                "
+              />
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/1Vl6Pb1nCjILwqiycWnFXiXuR8uwH_TQN/view?usp=sharing" target="_blank">
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/mom.png"
+                style="
+                  border-width: 0px; 
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
+                "
+              />
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/1vs-Pt0uYdkswmK-F9WBz10EOs_1puSep/view?usp=sharing" target="_blank">
+              <img
+                class="rounded border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/hersheys-150x150.png"
+                style="
+                  border-radius: 0px;
+                  background: #4c0b13;
+                  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
+                  border-width: 0px;
+                  border-color: var(--bs-border-color-translucent);
+                "
+              />
+            </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/1Y4_VUW1p16yN7v3i6ZiIGeX8uSmGTtkX/view?usp=sharing" target="_blank">
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/kraft-200x200.png"
+                style="
+                  border-width: 0px;
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                "
+              />
+            </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+                <a href="https://drive.google.com/file/d/1lJv5AEURCCtd2pqMbfsv49Uda21JLXOc/view?usp=sharing" target="_blank"> 
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/oetker-150x150.png"
+                style="
+                  border-width: 0px;
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                "
+              />
+                </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/1obww1A_aoYrnIjWIU3rspZ9mdzbjtmAa/view?usp=sharing" target="_blank">
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/drylock.png"
+                style="
+                  border-width: 0px;
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                "
+              />
+            </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/1Hg3fUxWQPVWMTx1dmfZhgbFSSr-IEFKS/view?usp=sharing" target="_blank">
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/zanlorenzi.png"
+                style="
+                  border-width: 0px;
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                "
+              />
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/16dpQoNeDPO0qAmU3rfxuxWOZV6BEkJGm/view?usp=sharing" target="_blank">
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/hemmer.jpg"
+                style="
+                  border-width: 0px;
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                "
+              />
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/1-miHAddjB7CGGpxH4mbTp2wiKczr6tot/view?usp=sharing" target="_blank">
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/melitta-150x150.jpg"
+                style="
+                  border-width: 0px;
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                "
+             
+              />
+            </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/1Jv4IkNOdt8fgXVHvJTKlE1A7XTBpz6Rz/view?usp=sharing" target="_blank">
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/queensberry-200x200.jpg"
+                style="
+                  border-width: 0px;
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                "
+              />
+            </a>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+            style="width: 150px"
+          >
+            <div class="text-center mx-auto">
+              <a href="https://drive.google.com/file/d/10q8DPKVV-OmF8JpuSE7ERp5bpA8BQr9g/view?usp=sharing" target="_blank">
+              <img
+                class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                data-bss-hover-animate="tada"
+                width="100"
+                height="100"
+                src="assets/img/ype-180x180.jpg"
+                style="
+                  border-width: 0px;
+                  border-radius: 0px;
+                  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                "
+              />
+              </a>  
+            </div>
+          </div>
+              </a>
+              <div
+              class="col-md-2 col-lg-2 d-md-flex flex-row mx-auto mb-4"
+              style="width: 150px"
+            >
+              <div class="text-center mx-auto">
+                <a href="https://drive.google.com/file/d/1B_xSit8x2Y2Oc_z2XrR7U514agSheZR7/view?usp=sharing" target="_blank">
+                <img
+                  class="rounded bg-white border rounded-pill mb-3 fit-cover"
+                  data-bss-hover-animate="tada"
+                  width="100"
+                  height="100"
+                  src="assets/img/nadir.png"
+                  style="
+                    border-width: 0px;
+                    border-radius: 0px;
+                    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                  "
+                />
+                </a>  
+              </div>
+            </div>
+                </a>  
+            </div>
+          </div>
+        </div>
+                        </div>
+                      </section>
+                      <footer class="bg-dark"></footer>
+                      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+                      <script src="assets/js/bs-init.js"></script>
+                      <script src="assets/js/bold-and-dark.js"></script>
+                    </body>
+                  </html>
+          </div>
+        </div>
+        <footer class="text-center"></footer>
+      </div>
+    </section>
+    <footer class="bg-dark"></footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/bold-and-dark.js"></script>
+  </body>
+</html>
